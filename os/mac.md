@@ -14,14 +14,18 @@ kill -9 processId
 
 ***find all occupied port in Mac***
 ```sh
-all_occupied_ports='netstat -vanp tcp'
+alias all_occupied_ports="netstat -vanp tcp"
+alias find_port="lsof -i:8080"
 ```
 
-# quarantine a file
+# quarantine a file.
+
 ```sh
 sudo xattr -r -d com.apple.quarantine ~/Tools/path/to/the/folder
 ```
 
-#Find Wifi Password connected in Mac
+# Find Wifi Password connected in Mac.
 
+```sh
 security find-generic-password -ga "Wifi Name" | grep "password:"
+```
