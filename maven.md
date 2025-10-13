@@ -132,10 +132,10 @@ public void test() {
 mvn -s ~/.m2/settings.xml dependency:get -DremoteRepositories=http://my.nexus.net:10001/repository/maven-hosted-snapshots -DgroupId=com.my.project -DartifactId=my-project -Dversion=0.0.1-SNAPSHOT -Dtransitive=false -Dpackaging=war
 
 # with curl
-wget --user=<USERNAME> --ask-password https://nexus.maerskdev.net/repository/maven-group-internal/net/crb/apmoller/amps/commonjars/kafka-avro-serializer/7.0.1/kafka-avro-serializer-7.0.1.jar
+wget --user=<USERNAME> --ask-password https://abc.net/repository/maven-group-internal/net/crb/apmoller/amps/commonjars/kafka-avro-serializer/7.0.1/kafka-avro-serializer-7.0.1.jar
 
 # with wget
-wget --header "Authorization: Bearer $PAT_TOKEN" https://maven.pkg.github.com/Maersk-Global/shared-kafka-utils/com/maersk/shared/kafka-utils/6.0.0/kafka-utils-6.0.0.jar
+wget --header "Authorization: Bearer $PAT_TOKEN" https://maven.pkg.github.com/[org]/package:6.0.0/kafka-utils-6.0.0.jar
 ```
 
 ### Upload a jar to an artifactory (Nexus, central, or ...)
@@ -156,7 +156,7 @@ mvn deploy:deploy-file -P nexus \
       -DpomFile=$GITHUB_WORKSPACE/ext-dependencies/authservice-common-4.0.0.pom \
       -Dpackaging=jar \
       -Dfile=$GITHUB_WORKSPACE/ext-dependencies/authservice-common-4.0.0.jar \
-      -DrepositoryId=maerskdev-nexus \
-      -Durl=https://tools-nexus.maerskdev.net/repository/maven-hosted-releases/ \
+      -DrepositoryId=abc \
+      -Durl=https://a.tools.net/repository/maven-hosted-releases/ \
       -DgeneratePom=false
 ```
