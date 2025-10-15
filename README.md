@@ -73,6 +73,7 @@
 
 - m
   - [Mac Tips](./os/mac.md).
+  - [Maven Tips](./maven.md)
 
 - n
 
