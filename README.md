@@ -36,6 +36,7 @@
   - [html basic](https://github.com/samitkumarpatel/html-basic) 
 
 - i
+  - [Intellij Shortcut](./shortcut-key/intellij.md)   
 
 - j
   - [Java]().
