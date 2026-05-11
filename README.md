@@ -69,6 +69,7 @@
   - [k8s-local-infra](https://github.com/samitkumarpatel/k8s-local-infra).
   - [kind-k8s-cluster](https://github.com/samitkumarpatel/kind-k8s-cluster).
   - [kafka](https://github.com/samitkumarpatel/kafka/blob/main/README.md).
+  - [kafka-e2e](https://github.com/samitkumarpatel/kafka/tree/main/kafka-e2e).
 
 - l
   - [Linux command / Tips](./os/unix_linux.md).
