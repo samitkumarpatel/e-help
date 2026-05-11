@@ -70,6 +70,7 @@
   - [kind-k8s-cluster](https://github.com/samitkumarpatel/kind-k8s-cluster).
   - [kafka](https://github.com/samitkumarpatel/kafka/blob/main/README.md).
   - [kafka-e2e](https://github.com/samitkumarpatel/kafka/tree/main/kafka-e2e).
+  - [kafka-acl](https://github.com/samitkumarpatel/kafka/tree/main/kafka-acl).
 
 - l
   - [Linux command / Tips](./os/unix_linux.md).
