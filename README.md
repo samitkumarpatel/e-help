@@ -88,6 +88,7 @@
     - [pkace/ooauth2 for browserbased application](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps-10).
     - [oauth2-client]().
     - [oauth2-resource-server]().
+  - [Microsoft Identity](https://learn.microsoft.com/en-us/entra/identity-platform/).
 
   - OS
     - [Mac Tips](./os/mac.md).
