@@ -1,7 +1,7 @@
 # knowledge-base / reference.
 - a
   - [azure](./cloud/azure.md).
-  - [azure aad](https://learn.microsoft.com/en-us/entra/identity-platform/).
+  - [azure aad oauth2](https://learn.microsoft.com/en-us/entra/identity-platform/).
   - [aks](./cloud/aks.md).
   - [aws](https://github.com/samitkumarpatel/aws).
   - [ai](.)
